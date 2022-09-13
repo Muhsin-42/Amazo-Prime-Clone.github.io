@@ -1,0 +1,73 @@
+#DVPAWebWidgetsRefundDialog_RefundDialog__modalBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url(https://m.media-amazon.com/images/G/01/digital/video/black-alpha-85.png) repeat !important;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  z-index: 1000; }
+
+#DVPAWebWidgetsRefundDialog_RefundDialog__dialogContainer {
+  width: 600px;
+  visibility: visible;
+  position: fixed;
+  left: 50%;
+  margin-left: -300px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1001; }
+
+.DVPAWebWidgetsRefundDialog_RefundDialog__fullWidthContainer {
+  width: 100%;
+  max-width: 100%;
+  position: initial; }
+
+.DVPAWebWidgetsRefundDialog_RefundDialog__popupBody {
+  margin: 0 40px; }
+
+.DVPAWebWidgetsRefundDialog_RefundDialog__popupButtonContainer {
+  display: flex;
+  justify-content: center; }
+
+@media only screen and (max-width: 600px) {
+  #DVPAWebWidgetsRefundDialog_RefundDialog__dialogContainer {
+    width: 340px;
+    visibility: visible;
+    position: fixed;
+    left: 50%;
+    margin-left: -170px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1001; } }
+
+.DVPAWebWidgetsRefundDialog_RefundDialogDVUI__dvuiTable {
+  color: #fff !important;
+  margin-bottom: 18px;
+  font-size: 17px; }
+  .DVPAWebWidgetsRefundDialog_RefundDialogDVUI__dvuiTable th {
+    width: 170px;
+    text-align: left;
+    font-weight: 100; }
+  .DVPAWebWidgetsRefundDialog_RefundDialogDVUI__dvuiTable tr:last-child td {
+    font-weight: bold; }
+
+.DVPAWebWidgetsRefundDialog_RefundDialogDVUI__dvuiValidation {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center; }
+  .DVPAWebWidgetsRefundDialog_RefundDialogDVUI__dvuiValidation .DVPAWebWidgetsRefundDialog_RefundDialogDVUI__validationText {
+    color: #e24b54;
+    margin-left: 8px; }
+
+.DVPAWebWidgetsRefundDialog_RefundDialogDVUI__cancellationDropdown {
+  margin-bottom: 16px; }
+
+.DVPAWebWidgetsRefundDialog_RefundDialogDVUI__markdown a {
+  color: #79b8f3; }
+  .DVPAWebWidgetsRefundDialog_RefundDialogDVUI__markdown a:hover {
+    color: #90dffe; }
+
+html[dir="rtl"] .DVPAWebWidgetsRefundDialog_RefundDialogDVUI__dvuiTable th {
+  text-align: right; }
+

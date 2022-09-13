@@ -1,0 +1,111 @@
+.DVPAWebWidgetsPINDialog_PINInputs__pinInput {
+  text-align: center;
+  -webkit-text-security: disc; }
+
+html[dir="rtl"] .DVPAWebWidgetsPINDialog_PINInputs__pinInput:first-child {
+  margin-right: 0; }
+
+html[dir="rtl"] .DVPAWebWidgetsPINDialog_PINInputs__pinInput:last-child {
+  margin-right: 4px; }
+
+#DVPAWebWidgetsPINDialog_PINDialog__modalBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url(https://m.media-amazon.com/images/G/01/digital/video/black-alpha-85.png) repeat !important;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  z-index: 1000; }
+
+#DVPAWebWidgetsPINDialog_PINDialog__dialogContainer {
+  width: 400px;
+  visibility: visible;
+  position: fixed;
+  left: 50%;
+  margin-left: -200px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1001; }
+
+.DVPAWebWidgetsPINDialog_PINDialog__pinInput {
+  text-align: center; }
+
+.DVPAWebWidgetsPINDialog_PINDialog__pinInputWrapper {
+  margin: 5px 0;
+  font-size: 12px; }
+
+.DVPAWebWidgetsPINDialog_PINDialog__fullWidthContainer {
+  width: 100%;
+  max-width: 100%;
+  position: initial; }
+
+@media only screen and (max-width: 600px) {
+  #DVPAWebWidgetsPINDialog_PINDialog__dialogContainer {
+    width: 340px;
+    visibility: visible;
+    position: fixed;
+    left: 50%;
+    margin-left: -170px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1001; } }
+
+.DVPAWebWidgetsPINDialog_PINDialogDVUI__preInputText {
+  margin-bottom: 10px; }
+
+.DVPAWebWidgetsPINDialog_PINDialogDVUI__pinsWrapper {
+  margin: 5px 0;
+  font-size: 12px; }
+  .DVPAWebWidgetsPINDialog_PINDialogDVUI__pinsWrapper input {
+    margin: 0 4px 4px 0;
+    font-size: inherit;
+    font-family: inherit;
+    line-height: inherit;
+    color: inherit;
+    height: auto;
+    background-color: #0f171e;
+    padding: 11px;
+    border: 1px solid #425265;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    box-shadow: none;
+    /* Overriding AUI styles */ }
+    .DVPAWebWidgetsPINDialog_PINDialogDVUI__pinsWrapper input:focus, .DVPAWebWidgetsPINDialog_PINDialogDVUI__pinsWrapper input:hover {
+      border-color: #8197a4;
+      outline: none;
+      box-shadow: none; }
+    .DVPAWebWidgetsPINDialog_PINDialogDVUI__pinsWrapper input:focus {
+      background-color: #48545f; }
+    .DVPAWebWidgetsPINDialog_PINDialogDVUI__pinsWrapper input:last-child {
+      margin-right: 0; }
+    .DVPAWebWidgetsPINDialog_PINDialogDVUI__pinsWrapper input:not([type=hidden]) + input {
+      margin-left: 0; }
+
+.DVPAWebWidgetsPINDialog_PINDialogDVUI__dvuiValidation {
+  display: flex;
+  align-items: center;
+  margin-top: 10px; }
+  .DVPAWebWidgetsPINDialog_PINDialogDVUI__dvuiValidation .DVPAWebWidgetsPINDialog_PINDialogDVUI__validationText {
+    color: #e24b54;
+    margin-left: 8px; }
+
+.DVPAWebWidgetsPINDialog_PINDialogDVUI__buttonRow {
+  display: block; }
+  .DVPAWebWidgetsPINDialog_PINDialogDVUI__buttonRow > button {
+    margin: 0 12px 12px 0; }
+    .DVPAWebWidgetsPINDialog_PINDialogDVUI__buttonRow > button:last-child {
+      margin: 0; }
+
+.DVPAWebWidgetsPINDialog_PINDialogDVUI__markdown a {
+  color: #79b8f3; }
+  .DVPAWebWidgetsPINDialog_PINDialogDVUI__markdown a:hover {
+    color: #90dffe; }
+
+html[dir="rtl"] .DVPAWebWidgetsPINDialog_PINDialogDVUI__buttonRow > button {
+  margin: 0 0 12px 12px; }
+
+html[dir="rtl"] .DVPAWebWidgetsPINDialog_PINDialogDVUI__dvuiValidation .DVPAWebWidgetsPINDialog_PINDialogDVUI__validationText {
+  margin: 0 8px 0 0; }
+

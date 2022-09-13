@@ -1,0 +1,89 @@
+#DVPAWebWidgetsGeneralDialog_GeneralDialog__modalBackground {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url(https://m.media-amazon.com/images/G/01/digital/video/black-alpha-85.png) repeat !important;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  z-index: 1000; }
+
+#DVPAWebWidgetsGeneralDialog_GeneralDialog__dialogContainer {
+  width: 600px;
+  visibility: visible;
+  position: fixed;
+  left: 50%;
+  margin-left: -300px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1001; }
+
+.DVPAWebWidgetsGeneralDialog_GeneralDialog__fullWidthContainer {
+  width: 100%;
+  max-width: 100%;
+  position: initial; }
+
+.DVPAWebWidgetsGeneralDialog_GeneralDialog__popupBody {
+  margin: 0 40px; }
+
+.DVPAWebWidgetsGeneralDialog_GeneralDialog__popupCheckbox {
+  text-align: left;
+  margin: 5px 0; }
+
+.DVPAWebWidgetsGeneralDialog_GeneralDialog__popupButtonContainer {
+  display: flex;
+  justify-content: center; }
+
+.DVPAWebWidgetsGeneralDialog_GeneralDialog__popupFooterText {
+  text-align: center;
+  margin-top: 10px; }
+
+@media only screen and (max-width: 600px) {
+  #DVPAWebWidgetsGeneralDialog_GeneralDialog__dialogContainer {
+    width: 340px;
+    visibility: visible;
+    position: fixed;
+    left: 50%;
+    margin-left: -170px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1001; } }
+
+#DVPAWebWidgetsGeneralDialog_GeneralDialogDVUI__dvuiGeneralDialog form {
+  margin: 0; }
+
+#DVPAWebWidgetsGeneralDialog_GeneralDialogDVUI__dvuiGeneralDialog .DVPAWebWidgetsGeneralDialog_GeneralDialogDVUI__footerText {
+  margin-top: 16px; }
+
+.DVPAWebWidgetsGeneralDialog_GeneralDialogDVUI__checkboxContainer {
+  display: inline-block;
+  margin-bottom: 16px; }
+
+.DVPAWebWidgetsGeneralDialog_GeneralDialogDVUI__buttonRow {
+  display: flex; }
+  .DVPAWebWidgetsGeneralDialog_GeneralDialogDVUI__buttonRow > button {
+    margin: 0 8px 0 0; }
+    .DVPAWebWidgetsGeneralDialog_GeneralDialogDVUI__buttonRow > button:last-child {
+      margin: 0; }
+
+.DVPAWebWidgetsGeneralDialog_GeneralDialogDVUI__markdown a {
+  color: #79b8f3; }
+  .DVPAWebWidgetsGeneralDialog_GeneralDialogDVUI__markdown a:hover {
+    color: #90dffe; }
+
+@media only screen and (max-width: 46.99em) {
+  .DVPAWebWidgetsGeneralDialog_GeneralDialogDVUI__buttonRow {
+    flex-direction: column; }
+    .DVPAWebWidgetsGeneralDialog_GeneralDialogDVUI__buttonRow > button {
+      margin: 0 0 8px 0; }
+      .DVPAWebWidgetsGeneralDialog_GeneralDialogDVUI__buttonRow > button:last-child {
+        margin: 0; } }
+
+html[dir="rtl"] .DVPAWebWidgetsGeneralDialog_GeneralDialogDVUI__buttonRow > button {
+  margin: 0 0 0 8px;
+  text-align: right; }
+
+@media only screen and (max-width: 46.99em) {
+  html[dir="rtl"] .DVPAWebWidgetsGeneralDialog_GeneralDialogDVUI__buttonRow > button {
+    margin: 0 0 8px 0; } }
+
